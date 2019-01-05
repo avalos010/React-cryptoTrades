@@ -15,10 +15,15 @@ class App extends Component {
   componentDidMount = () => {
     console.log(this.state.exchanges)
   }
+
+  setExchange = e => {
+    this.setState({exchange: e.target.value})
+  }
   render() {
     return (
       <div>
-        <Exchanges exchanges={this.state.exchanges}/>
+        <Exchanges exchanges={this.state.exchanges}
+        setExchange={this.setExchange}/>
         </div>
     )
   }
