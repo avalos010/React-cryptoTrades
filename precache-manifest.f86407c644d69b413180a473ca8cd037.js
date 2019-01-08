@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "6613b4f840c0d6b13ee5",
-    "url": "/React-cryptoTrades/static/js/main.6613b4f8.chunk.js"
+    "revision": "1fe58b5057042f0e36a8",
+    "url": "/React-cryptoTrades/static/js/main.1fe58b50.chunk.js"
   },
   {
     "revision": "436108215b8d098501a1",
@@ -12,7 +12,7 @@ self.__precacheManifest = [
     "url": "/React-cryptoTrades/static/js/runtime~main.53e08d72.js"
   },
   {
-    "revision": "7a817cad46292430559bf1c15262e9cf",
+    "revision": "28a7c063d3a2aa6721d32f2b5424e692",
     "url": "/React-cryptoTrades/index.html"
   }
 ];
