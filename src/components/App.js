@@ -15,7 +15,7 @@ class App extends Component {
   }
 
   componentDidMount = () => {
-    console.log(this.state.exchanges)
+    document.title = "CryptoTrades"
   }
 
   setPair = async(e) => {
@@ -63,6 +63,7 @@ class App extends Component {
   render() {
     return (
       <div className="container bg-light">
+
         <h1 className="text-center"><span className="text-success">Crypto</span><span className="text-primary">Trades</span></h1>
         <div className="row">
         <Exchanges exchanges={this.state.exchanges}
